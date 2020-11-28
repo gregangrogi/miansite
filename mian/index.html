@@ -7,25 +7,85 @@
  <title>gregy's games</title>
  <style>
     body {
-      background: url("http://sofiasoter.com/wp-content/uploads/2015/03/tumblr_static_image-fascinating-images-from-outer-space-update-dec_4958696.jpg");
+      background: url("https://inn.spb.ru/images/000/DSC100075389.jpg");
       color: #fff;
     }
-    @font-face { font-family: JuneBug; src: url('ROBO.ttf');}
+    @font-face { font-family: JuneBug; src: url('Akrobat-SemiBold.otf');}
     h1 {
       font-size: 300%;
       font-family: JuneBug
     }
     h2 {
+      text-indent: 150px;
       font-size: 200%;
       font-family: JuneBug
     }
+    h3 {
+      font-size: 150%;
+      font-family: JuneBug
+    }
+      .container {
+      position: relative;
+      width: 50%;
+    }
+    .container img {
+  width: 100%;
+  height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -10%);
+  -ms-transform: translate(-50%, -10%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.container2 {
+position: relative;
+width: 50%;
+}
+.container2 img {
+width: 100%;
+height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container2 .btn {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, 130%);
+-ms-transform: translate(-50%, 130%);
+background-color: #555;
+color: white;
+font-size: 16px;
+padding: 12px 24px;
+border: none;
+cursor: pointer;
+border-radius: 5px;
+}
   </style>
 </head>
 <body>
   <center>
     <h1>gregy's games</h1>
+    <div class="container">
+
+      <button class="btn" onclick="window.location.href = 'https://gregangrogi.github.io/hey-stiky/';"><h3>hey stiky</h3></button></button>
+    </div>
+    <div class="container2">
+
+      <button class="btn" onclick="window.location.href = 'https://gregangrogi.github.io/web/';"><h3>cat puzzle</h3></button></button>
+    </div>
   </center>
-  <h2><a href="https://gregangrogi.github.io/hey-stiky/">hey slime</a></h2>
-  <h2><a href="https://gregangrogi.github.io/web/">cat puzzle</a></h2>
+
 </body>
 </html>
