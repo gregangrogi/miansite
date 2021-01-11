@@ -1,0 +1,53 @@
+body {
+  background: #223;
+  color: #fff;
+}
+center {
+  background-color: #445;
+  width: 75%;
+  position: absolute;
+  transform: translate(17%,0)
+}
+@font-face { font-family: JuneBug; src: url('Akrobat-SemiBold.otf');}
+h1 {
+  font-size: 300%;
+  font-family: JuneBug
+}
+h2 {
+  text-indent: 150pt;
+  font-size: 200%;
+  font-family: JuneBug
+}
+h3 {
+  font-size: 150%;
+  font-family: JuneBug
+}
+
+.cnt .btn , .rgt .btn , .lft .btn {
+transform: translate(-50%,0)
+position: absolute;
+background-color: #556;
+
+color: white;
+font-size: 16pt;
+border: none;
+}
+.cnt, .rgt, .lft {
+   height: 100%;
+   position: relative;
+   width: 50%;
+}
+
+.cnt{
+    width: 25%;
+ }
+
+ .rgt, .lft{
+    width: 25%;
+ }
+
+ .wrapper {
+  display: flex;
+  align-content: center;
+  transform: translate(12%,0)
+}
