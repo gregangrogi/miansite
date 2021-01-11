@@ -3,10 +3,11 @@ body {
   color: #fff;
 }
 center {
-  background-color: #445;
+  background-color: #446;
   width: 75%;
   position: absolute;
-  transform: translate(17%,0)
+  transform: translate(17%,0);
+  border-radius: 25pt;
 }
 @font-face { font-family: JuneBug; src: url('Akrobat-SemiBold.otf');}
 h1 {
@@ -26,7 +27,8 @@ h3 {
 .cnt .btn , .rgt .btn , .lft .btn {
 transform: translate(-50%,0)
 position: absolute;
-background-color: #556;
+background-color: #668;
+border-radius: 15pt;
 
 color: white;
 font-size: 16pt;
