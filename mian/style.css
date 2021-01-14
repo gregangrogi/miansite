@@ -20,7 +20,7 @@ h2 {
   font-family: JuneBug;
 }
 h3 {
-  font-size: 200%;
+  font-size: 30px;
   font-family: JuneBug;
   transform: translate(0,-200%);
 }
@@ -35,9 +35,7 @@ color: white;
 font-size: 16pt;
 border: none;
 background-color: #668;
-}
-.cnt .text, .rgt .text, .lft .text{
-  transform: translate(0 ,50%);
+background-size: 100%;
 }
 .cnt, .rgt, .lft {
    height: 50%;
@@ -47,16 +45,12 @@ background-color: #668;
 }
 .cnt .btn{
   background-image: url("https://sun9-36.userapi.com/impg/2l4bHCQbxay7JPdF6WThd28AfwSyGZBS7Xeg1Q/3Pa1qfnWokQ.jpg?size=128x128&quality=96&proxy=1&sign=ddacc887a0a4bbbe7d9ae2f38568292e&type=album");
-  background-size: 100%;
 }
 .rgt .btn{
-  background-image: url("https://sun9-9.userapi.com/impg/wwM47hAyteEx-lVSQ703CO3N9GqYCyVemE2KCA/HiIcg1kpFxg.jpg?size=256x256&quality=96&proxy=1&sign=0b97be90457160990bf65693f02f3a4c&type=album");
-  background-size: 100%;
-}
-
-.lft .btn{
   background-image: url("https://sun9-26.userapi.com/impg/tu-MIgfBvMQcfqGGRv5oWhCPgKpdIXK9iBEfNQ/sjL4NVPwjow.jpg?size=512x512&quality=96&proxy=1&sign=f7f8886e6644863a4f1997a0306f6645&type=album");
-  background-size: 100%;
+}
+.lft .btn{
+  background-image: url("https://sun9-9.userapi.com/impg/wwM47hAyteEx-lVSQ703CO3N9GqYCyVemE2KCA/HiIcg1kpFxg.jpg?size=256x256&quality=96&proxy=1&sign=0b97be90457160990bf65693f02f3a4c&type=album");
 }
 
  .wrapper {
