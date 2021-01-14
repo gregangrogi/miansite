@@ -15,18 +15,28 @@ h1 {
   font-family: JuneBug;
 }
 h2 {
-  text-indent: 150pt;
   font-size: 200%;
   font-family: JuneBug;
 }
 h3 {
   font-size: 30px;
   font-family: JuneBug;
-  transform: translate(0,-200%);
+  transform: translate(0,-80pt);
+}
+
+.type {
+    text-indent: 10%;
+}
+.type span{
+  background-color: #668;
+  border: none;
+}
+.type::after{
+  background-size: 120%;
 }
 
 .cnt .btn , .rgt .btn , .lft .btn {
-transform: translate(-50%,0);
+transform: translate(-50%, 0);
 width: 45%;
 height: 140pt;
 position: absolute;
@@ -34,7 +44,6 @@ border-radius: 15pt;
 color: white;
 font-size: 16pt;
 border: none;
-background-color: #668;
 background-size: 100%;
 }
 .cnt, .rgt, .lft {
@@ -57,5 +66,5 @@ background-size: 100%;
   display: flex;
   align-content: center;
   transform: translate(0,0);
-  height: 170pt;
+  height: 150pt;
 }
